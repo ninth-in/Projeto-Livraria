@@ -5,9 +5,7 @@ IDE: Visual Studio Code
 
 Linguagem de Programação: Python
 
-
 Entidades: Livros e Usuários
-
 
 Projeto: simulação de um sistema de livraria para empréstimo de livros.
 
@@ -24,3 +22,6 @@ Mindset - Carol S. Dweck - Psicologia
 As Cronicas de Narnia - C. S. Lewis - Fantasia
 
 Amor e gelato - Jenna Evans Welch - Romance
+
+# Informações Adicionais 
+Para acessar os valores das informações do retorno da requisição do banco de dados utilizamos o comando r[0]['x']
