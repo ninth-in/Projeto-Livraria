@@ -1,7 +1,7 @@
 from db.database import Graph
 class Usuario(object):
     def __init__(self):
-        self.db = Graph(uri='bolt://44.204.254.83:7687', user='neo4j', password='bed-secret-pulse')
+        self.db = Graph(uri='link', user='neo4j', password='senha')
 
     def cadastrarUsuario(self, nome, idade, email, login, senha):
         self.db.execute_query('CREATE (u:Usuario {nome:$nome, idade:$idade, email:$email, login:$login, senha:$senha})',
